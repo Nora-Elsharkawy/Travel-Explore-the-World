@@ -11,7 +11,7 @@ Features a professional header with logo and social icons, main content with ins
 ```
 Travel-Website/
 │
-├─ index.html
+├─ Traveling.html
 ├─ Travrling.css
 ├─ Task_2 Images/
 │   ├─ twitter-alt.svg
@@ -31,5 +31,5 @@ Travel-Website/
 
 ## How to Use
 1. Clone or download the repository
-2. Open `index.html` in a browser
+2. Open `Traveling.html` in a browser
 3. Explore the travel landing page
