@@ -1,28 +1,35 @@
-# Traveling – Explore the World
+# Travel Website Landing Page
 
-## Overview
-**Traveling** is a responsive and visually appealing web page designed to inspire travel enthusiasts. The page provides a clean and modern interface with interactive navigation, social media integration, and a captivating hero section to showcase beautiful destinations.
-
-## Features
-- **Responsive Header:** Logo, navigation bar, and social media icons.
-- **Interactive Navigation:** Active link highlighting and dropdown-style menu for smaller screens.
-- **Hero Section:** Large background image with overlay text, inspirational paragraph, and search input.
-- **Image Slider Navigation:** Arrow buttons for cycling through featured travel images.
-- **Visual Indicators:** Dot navigation for the hero section to show multiple slides.
+A modern and responsive travel website landing page built with **HTML5** and **CSS3**.  
+Features a professional header with logo and social icons, main content with inspirational travel text, image showcase, navigation dots, and search functionality.
 
 ## Technologies Used
 - HTML5
-- CSS3 (Flexbox for layout, responsive design)
-- Semantic HTML structure
-- Modern CSS styling
+- CSS3
 
-## File Structure
+## Project Structure
+```
+Travel-Website/
+│
+├─ index.html
+├─ Travrling.css
+├─ Task_2 Images/
+│   ├─ twitter-alt.svg
+│   ├─ facebook-social-logo.svg
+│   ├─ instagram-logo-thin.svg
+│   ├─ Travel Photo.avif
+│   └─ ... (any other images/icons)
+```
 
-/project-root
-│-- index.html
-│-- Travrling.css
-│-- /Task_2 Images
-│ ├─ Travel Photo.avif
-│ ├─ twitter-alt.svg
-│ ├─ facebook-social-logo.svg
-│ └─ instagram-logo-thin.svg
+## Features
+- Responsive header with logo and social icons
+- Main content with inspirational travel text
+- Image showcase with arrows
+- Navigation dots for slides
+- Search box functionality
+- Clean and professional UI design
+
+## How to Use
+1. Clone or download the repository
+2. Open `index.html` in a browser
+3. Explore the travel landing page
