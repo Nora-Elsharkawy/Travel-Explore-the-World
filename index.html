@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Travelling Website - Explore the World">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Travelling Website</title>
+    <link rel="stylesheet" href="Css/normalize.css">
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="stylesheet" href="Css/mediaquery.css">
+    <link rel="icon" href="images/flight.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!--Nav Bar-->
+    <header>
+        <div class="container">
+            <div class="logo-bar">
+                <a href="#" class="logo">LO<span>GO</span></a>
+                <div class="social-menu">
+                    <i class="fa-solid fa-bars social-toggle"></i>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <nav>
+                <i class="fa-solid fa-bars toggle-menu"></i>
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experiences">Experiences</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <i class="fas fa-search"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--Landing-->
+    <div class="landing" id="home">
+        <div class="landing-content">
+            <div class="landing-text">
+                <span class="landing-subtitle">Explore the world</span>
+                <h1>
+                    <span class="travel-word">Travel</span><span class="ing-word">ing</span>
+                </h1>
+                <p>Discover the beauty of the world by taking the first step from zero. Every journey begins with a
+                    simple moment of courage, and every destination carries a story waiting to be lived. Explore hidden
+                    places, meet new faces, and allow every sunrise to remind you that the world is wide and full of
+                    possibilities.</p>
+
+                <ul class="bullets">
+                    <li class="active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+                <a href="#destinations" class="main-button">
+                    Explore More
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="landing-image">
+                <img src="images/Travel Photo2.avif" alt="Beautiful travel destination">
+                <div class="image-arrows">
+                    <i class="fas fa-angle-left change-background fa-2x"></i>
+                    <i class="fas fa-angle-right change-background fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Destination-->
+    <div class="destinations" id="destinations">
+        <div class="container">
+            <div class="main-heading">
+                <span>01 / DESTINATIONS</span>
+                <h2>Places Worth <strong>Discovering.</strong></h2>
+                <p>From peaceful beaches to breathtaking mountains, discover places that make every journey
+                    unforgettable.</p>
+            </div>
+
+            <div class="destinations-content">
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/Santorini.jpg" alt="Santorini Greece">
+                    </div>
+                    <div class="destination-info">
+                        <span>Greece</span>
+                        <h3>Santorini</h3>
+                        <p>White villages, blue domes and unforgettable views over the Aegean Sea.</p>
+                        <a href="https://www.getyourguide.com/en-gb/santorini-l753/" target="_blank"
+                            rel="noopener noreferrer">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/Bali.jpg" alt="Bali Indonesia">
+                    </div>
+                    <div class="destination-info">
+                        <span>Indonesia</span>
+                        <h3>Bali</h3>
+                        <p>Tropical landscapes, peaceful beaches and unforgettable cultural experiences.</p>
+                        <a href="https://www.getyourguide.com/en-gb/bali-l347/" target="_blank"
+                            rel="noopener noreferrer">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="destination-card">
+                    <div class="destination-image">
+                        <img src="images/France.jpg" alt="Paris France">
+                    </div>
+                    <div class="destination-info">
+                        <span>France</span>
+                        <h3>Paris</h3>
+                        <p>A timeless city filled with art, architecture, culture and beautiful moments.</p>
+                        <a href="https://www.getyourguide.com/en-gb/paris-l16/" target="_blank"
+                            rel="noopener noreferrer">
+                            Explore <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About-->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about.jpg" alt="Travel landscape">
+                </div>
+                <div class="about-text">
+                    <span class="about-label">02 / ABOUT US</span>
+                    <h2>Travel is not just <strong>where you go.</strong></h2>
+                    <p>We believe that travelling is about discovering something new in every place you visit. From
+                        quiet moments to unforgettable adventures, every journey becomes a story worth remembering.</p>
+                    <p>Whether you are looking for peaceful escapes, breathtaking landscapes or new cultural
+                        experiences, we help you discover places that stay with you long after the journey ends.</p>
+                    <a href="#experiences" class="about-button">
+                        Discover More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Experience-->
+    <div class="experiences" id="experiences">
+        <div class="container">
+            <div class="main-heading">
+                <span>03 / EXPERIENCES</span>
+                <h2>Make the journey <strong>part of the story.</strong></h2>
+                <p>Discover experiences that turn ordinary trips into unforgettable memories.</p>
+            </div>
+            <div class="experiences-content">
+                <div class="experience-item">
+                    <span class="experience-number">01</span>
+                    <div class="experience-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <div class="experience-info">
+                        <span>Adventure</span>
+                        <h3>Beyond the ordinary</h3>
+                        <p>Step outside your comfort zone and discover breathtaking landscapes, hidden paths and
+                            unforgettable adventures.</p>
+                    </div>
+                    <a href="#" class="experience-arrow" aria-label="Read more about adventure">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="experience-item">
+                    <span class="experience-number">02</span>
+                    <div class="experience-icon">
+                        <i class="fas fa-earth-americas"></i>
+                    </div>
+                    <div class="experience-info">
+                        <span>Culture</span>
+                        <h3>Discover a different world</h3>
+                        <p>Meet new people, experience different traditions and discover the stories behind every
+                            destination.</p>
+                    </div>
+                    <a href="#" class="experience-arrow" aria-label="Read more about culture">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="experience-item">
+                    <span class="experience-number">03</span>
+                    <div class="experience-icon">
+                        <i class="fas fa-umbrella-beach"></i>
+                    </div>
+                    <div class="experience-info">
+                        <span>Relaxation</span>
+                        <h3>Slow down and breathe</h3>
+                        <p>Find peaceful places where you can disconnect from the everyday and simply enjoy the moment.
+                        </p>
+                    </div>
+                    <a href="#" class="experience-arrow" aria-label="Read more about relaxation">
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Gallery-->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <div class="main-heading">
+                <span>04 / GALLERY</span>
+                <h2>Moments worth <strong>remembering.</strong></h2>
+                <p>A collection of places, moments and memories captured along the way.</p>
+            </div>
+
+            <div class="gallery-content">
+                <div class="gallery-item gallery-large">
+                    <img src="images/gallery1.jpg" alt="Santorini Greece">
+                    <div class="gallery-overlay">
+                        <span>Greece</span>
+                        <h3>Santorini</h3>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery2.jpg" alt="Bali Indonesia">
+                    <div class="gallery-overlay">
+                        <span>Indonesia</span>
+                        <h3>Bali</h3>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery3.jpg" alt="Paris France">
+                    <div class="gallery-overlay">
+                        <span>France</span>
+                        <h3>Paris</h3>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery4.jpg" alt="Swiss Alps Switzerland">
+                    <div class="gallery-overlay">
+                        <span>Switzerland</span>
+                        <h3>Swiss Alps</h3>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="images/gallery6.jpg" alt="Pyramids of Giza Egypt">
+                    <div class="gallery-overlay">
+                        <span>Egypt</span>
+                        <h3>Pyramids of Giza</h3>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-wide">
+                    <img src="images/gallery5.jpg" alt="Maldives tropical beach">
+                    <div class="gallery-overlay">
+                        <span>Maldives</span>
+                        <h3>Island Escape</h3>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--testimonials-->
+    <div class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="main-heading">
+                <span>05 / TESTIMONIALS</span>
+                <h2>Stories from <strong>travelers.</strong></h2>
+                <p>Every journey leaves a memory. Here are some of the stories shared by travelers along the way.</p>
+            </div>
+
+            <div class="testimonials-content">
+                <div class="testimonial-card">
+                    <div class="testimonial-number">01</div>
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">Traveling opened my eyes to places I had only dreamed about. Every
+                        destination felt different, but every one left a beautiful memory.</p>
+                    <div class="testimonial-person">
+                        <div class="testimonial-image">
+                            <img src="images/sara.jpg" alt="Sarah Johnson">
+                        </div>
+                        <div class="testimonial-info">
+                            <h3>Sarah Johnson</h3>
+                            <span>United Kingdom</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card active">
+                    <div class="testimonial-number">02</div>
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">The best part of traveling is discovering something unexpected. New
+                        places, new people and moments that stay with you forever.</p>
+                    <div class="testimonial-person">
+                        <div class="testimonial-image">
+                            <img src="images/daniel.jpg" alt="Daniel Martin">
+                        </div>
+                        <div class="testimonial-info">
+                            <h3>Daniel Martin</h3>
+                            <span>France</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-number">03</div>
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">Some places change the way you see the world. Traveling gave me the
+                        chance to slow down, explore and truly enjoy every moment.</p>
+                    <div class="testimonial-person">
+                        <div class="testimonial-image">
+                            <img src="images/emma.jpg" alt="Emma Williams">
+                        </div>
+                        <div class="testimonial-info">
+                            <h3>Emma Williams</h3>
+                            <span>Australia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-arrows">
+                <i class="fas fa-angle-left"></i>
+                <span>02 / 03</span>
+                <i class="fas fa-angle-right"></i>
+            </div>
+        </div>
+    </div>
+
+    <!--Contact-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="main-heading">
+                <span>06 / CONTACT</span>
+                <h2>Start your next <strong>journey.</strong></h2>
+                <p>Have a destination in mind? Get in touch and let us help you make your next journey unforgettable.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="contact-label">LET'S TALK</span>
+                    <h3>Where will your <strong>next story</strong> begin?</h3>
+                    <p>Whether you're planning a relaxing escape, an adventurous trip or simply looking for inspiration,
+                        we'd love to hear from you.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <span>Email</span>
+                                <a href="mailto:hello@traveling.com">hello@traveling.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <span>Phone</span>
+                                <a href="tel:+201000000000">+20 100 000 0000</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail">
+                            <div class="contact-icon">
+                                <i class="fas fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <span>Location</span>
+                                <p>Cairo, Egypt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="destination">Destination</label>
+                            <input type="text" id="destination" name="destination"
+                                placeholder="Where do you want to go?">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tell us about your next journey..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="contact-button">
+                            Send Message <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="footer-logo">LO<span>GO</span></a>
+                    <p>Discover the world, one journey at a time.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experiences">Experiences</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Discover</h3>
+                    <ul>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h3>Stay Inspired</h3>
+                    <p>Get travel inspiration and new destinations delivered to you.</p>
+                    <form>
+                        <div class="newsletter-input">
+                            <input type="email" placeholder="Your email address" required>
+                            <button type="submit" aria-label="Subscribe">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Traveling. All rights reserved.</p>
+                <a href="#home">Back to top <i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
